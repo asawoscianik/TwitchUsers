@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>TWITCH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+
+<div id="find_streamer_panel">
+    <img id="twitch_logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Twitch_logo_%28wordmark_only%29.svg/2000px-Twitch_logo_%28wordmark_only%29.svg.png"/>
+    <input id="go" class="find_streamer"  type="button" value="FIND"/>
+    <input id="name" class="find_streamer" type="text" placeholder="streamer name"/>
+</div>
+
+
+<input type="button" class="btn btn_margin" id="show_all" value="ALL"/>
+<input type="button" class="btn" id="show_online" value="ONLINE"/>
+<input type="button" class="btn" id="show_offline" value="OFFLINE"/>
+
+<div id="content">
+    <ul class="online streamer"></ul>
+    <ul class="offline streamer"></ul>
+</div>
+
+
+</body>
+</html>
